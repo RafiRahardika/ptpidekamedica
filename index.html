@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. PIDEKA MEDICA</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.jpg" alt="Logo" class="logo" />
+            <h1>PT. PIDEKA MEDICA</h1>
+        </div>
+        <div class="menu-container">
+            <div class="menu-toggle" onclick="togglePopupMenu()">☰</div>
+            <div class="menu-popup" id="menuPopup">
+                <a href="#" onclick="showTab('home')">Home</a>
+                <a href="#" onclick="showTab('history')">History & Visi Misi</a>
+                <a href="#" onclick="showTab('department')">Struktur Organisasi</a>
+                <a href="#" onclick="showTab('produk')">Produk & Jasa</a>
+                <a href="#" onclick="showTab('lokasi')">Denah Pabrik</a>
+                <a href="#" onclick="showTab('kegiatan')">Kegiatan Kemasyarakatan</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="home" class="active fade-in">
+            <div class="home-banner">
+                <img src="img/logo.jpg" alt="Logo Perusahaan" class="home-logo" />
+                <h1>Makna Logo PT. PIDEKA MEDICA</h1>
+                <p>Logo ini menggambarkan identitas perusahaan farmasi yang lahir dari semangat ilmiah dan inovasi lulusan Farmasi Universitas Sriwijaya (UNSRI), khususnya angkatan 2022.</p>
+                <p>Gambar tokoh ilmuwan di bagian tengah merupakan representasi Hippocrates, yang dikenal sebagai Bapak Kedokteran Dunia. Kehadirannya melambangkan dasar pengetahuan ilmiah dan etika yang menjadi pondasi utama profesi kefarmasian. Tokoh ini juga menggambarkan hubungan erat antara ilmu farmasi dan pengabdian terhadap kesehatan manusia, selaras dengan nilai luhur pendidikan Farmasi. Struktur molekul di atas menunjukkan fokus produksi obat beta-laktam, baik steril maupun non-steril. Dua sisi produk (ampisilin & amoksisilin) mewakili lini produksi utama perusahaan. Hewan laboratorium kecil mencerminkan keunikan Farmasi UNSRI 2022.</p>
+                <p>Latar belakang padang rumput dan warna alami yang digunakan menggambarkan Indralaya, lokasi asal dan tempat berkembangnya perusahaan ini. Warna hijau keemasan melambangkan kesuburan, pertumbuhan, dan kemajuan ilmu di daerah tersebut. Hal ini menunjukkan bahwa PT. PIDEKA MEDICA tumbuh dari daerah dengan potensi sumber daya manusia dan alam yang kuat, serta membawa nama Indralaya sebagai pusat inovasi farmasi Sumatera Selatan.</p>
+                <p>“PT. PIDEKA MEDICA” menegaskan identitas perusahaan farmasi modern dan profesional. Logo ini menjadi simbol perpaduan ilmu, etika, teknologi, dan kearifan lokal Indralaya yang melahirkan inovasi farmasi berdaya saing tinggi.</p>
+                <h2>Selamat Datang di PT. PIDEKA MEDICA</h2>
+                <p>
+                    PT. Contoh Sejahtera merupakan perusahaan farmasi terkemuka di Indonesia 
+                    yang berkomitmen untuk menyediakan produk kesehatan berkualitas tinggi dan terpercaya. 
+                    Kami terus berinovasi untuk menciptakan solusi kesehatan terbaik bagi masyarakat.
+                </p>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>History & Visi Misi</h2>
+            <p>PT. PIDEKA MEDICA berdiri sejak tahun 2024 dan berfokus pada pengembangan produk farmasi berkualitas tinggi. Kami berkomitmen mendukung kesehatan masyarakat melalui inovasi berkelanjutan.</p>
+            <ul>
+                <li>Latar Belakang Berdirinya</li>
+                <p>PT. PIDEKA MEDICA didirikan pada tahun 2010 oleh sekelompok apoteker dan profesional kesehatan yang memiliki visi untuk memperkuat kemandirian industri farmasi nasional. Awalnya, perusahaan berfokus pada produksi obat generik esensial untuk memenuhi kebutuhan dasar rumah sakit dan apotek di wilayah Jabodetabek. Pendirian perusahaan ini didorong oleh meningkatnya kebutuhan obat-obatan berkualitas dalam negeri serta dorongan pemerintah untuk mengembangkan industri farmasi nasional.</p>
+                <li>Periode Awal (2010 sampai 2014)</li>
+                <p>Pembangunan pabrik farmasi pertama di Bekasi, Jawa Barat dengan fasilitas CPOB (Cara Pembuatan Obat yang Baik), Mendapatkan izin edar dari BPOM RI untuk 10 produk generik dan 5 suplemen kesehatan, Menjalin kerja sama awal dengan distributor farmasi nasional untuk memperluas jaringan pemasaran.</p>
+                <li>Periode Penguatan (2015 samapi 2018)</li>
+                <p>Memperluas portofolio produk ke obat resep, suplemen gizi, dan obat herbal terstandar, Membentuk Divisi Penelitian & Pengembangan (R&D) untuk mengembangkan formulasi baru berbasis bahan alam Indonesia, Mendapatkan sertifikasi ISO 9001:2015 dalam sistem manajemen mutu dan ISO 14001:2015 untuk manajemen lingkungan.</p>
+                <li>Periode Ekspansi Nasional (2019 sampai 2022)</li>
+                <p>Meningkatkan kapasitas produksi dan membuka cabang distribusi di 15 provinsi, Menjadi pemasok utama bagi beberapa rumah sakit swasta dan pemerintah, Meluncurkan produk unggulan “PIDEKA MEDICA” (antiinflamasi non-steroid) dan “BIOHERBA-C” (fitofarmaka berbasis herbal), Menerapkan sistem ERP (Enterprise Resource Planning) untuk efisiensi proses produksi dan distribusi.</p>
+                <li>Periode Transformasi dan Inovasi (2023 sampai Sekarang)</li>
+                <p>Fokus pada pengembangan produk bioteknologi, vaksin, dan obat modern berbasis penelitian lokal, Menerapkan transformasi digital pada sistem manajemen mutu, laboratorium, dan rantai pasok (supply chain), Mengembangkan program “Pideka Green Initiative”, yakni komitmen terhadap produksi ramah lingkungan dan efisiensi energi, Meningkatkan daya saing global dengan melakukan ekspor perdana ke Asia Tenggara (Malaysia, Filipina, dan Vietnam), Berkomitmen menjadi perusahaan farmasi inovatif dan berintegritas tinggi dalam mendukung visi Indonesia Sehat 2045.</p>
+            </ul>
+
+            <h3>Visi</h3>
+            <p>Menjadi perusahaan farmasi terdepan di Indonesia yang berdaya saing global, inovatif, dan berkomitmen untuk meningkatkan kualitas hidup masyarakat melalui produk kesehatan yang aman, bermutu tinggi, dan terjangkau.</p>
+
+            <h3>Misi</h3>
+            <ul>
+                <li>Menghasilkan produk farmasi berkualitas tinggi sesuai standar nasional dan internasional (CPOB, ISO, dan WHO-GMP).</li>
+                <li>Melakukan inovasi berkelanjutan melalui kegiatan riset dan pengembangan (R&D) di bidang farmasi, bioteknologi, serta bahan alam Indonesia.</li>
+                <li>Menjamin ketersediaan obat yang aman, efektif, dan terjangkau untuk memenuhi kebutuhan masyarakat Indonesia dari berbagai lapisan sosial.</li>
+                <li>Membangun kemitraan strategis dengan lembaga penelitian, perguruan tinggi, rumah sakit, dan pemerintah untuk pengembangan ilmu pengetahuan dan teknologi farmasi.</li>
+                <li>Menjalankan tata kelola perusahaan yang baik (Good Corporate Governance) dengan memperhatikan tanggung jawab sosial dan lingkungan (ESG).</li>
+                <li>Meningkatkan kompetensi dan profesionalitas sumber daya manusia (SDM) agar mampu bersaing di industri farmasi global.</li>
+            </ul>
+        </section>
+
+        <section id="department" class="fade-in">
+            <h2>Struktur Organisasi</h2>
+            <p>Struktur organisasi PT. PIDEKA MEDICA disusun untuk menjamin seluruh kegiatan operasional perusahaan berjalan secara efektif, efisien, dan sesuai dengan regulasi Cara Pembuatan Obat yang Baik (CPOB). Setiap departemen memiliki fungsi dan tanggung jawab yang saling berkaitan dalam mendukung tercapainya tujuan utama perusahaan, yaitu menghasilkan produk obat yang aman, bermutu tinggi, dan konsisten.</p>
+            <ul>
+                <li>DIREKTUR UTAMA</li>
+                <p>Direktur Utama merupakan pucuk pimpinan tertinggi dalam struktur organisasi PT. PIDEKA MEDICA. Jabatan ini memiliki peran strategis dalam menentukan arah dan kebijakan perusahaan.</p>
+                <li>DEPARTEMEN PRODUKSI</li>
+                <p>Departemen Produksi merupakan unit utama yang bertanggung jawab terhadap pelaksanaan seluruh kegiatan pembuatan obat, baik sediaan steril maupun non-steril beta-laktam. Departemen ini menjadi jantung operasional perusahaan karena secara langsung berperan dalam menghasilkan produk.</p>
+                <li>DEPARTEMEN QUALITY ASSURANCE (QA)</li>
+                <p>Departemen Quality Assurance (QA) merupakan pusat pengendalian mutu secara sistemik di PT. PIDEKA MEDICA. Departemen ini berfungsi sebagai pengawas dan penjamin agar seluruh proses di perusahaan mematuhi prinsip CPOB dan ISO 9001:2015.</p>
+                <li>DEPARTEMEN QUALITY CONTROL (QC)</li>
+                <p>Departemen Quality Control (QC) berperan dalam memastikan bahwa setiap bahan baku, bahan pengemas, produk antara, dan produk jadi memenuhi spesifikasi yang telah ditetapkan.</p>
+                <li>DEPARTEMEN PENELITIAN DAN PENGEMBANGAN (R&D)</li>
+                <p>Departemen R&D bertanggung jawab terhadap inovasi dan pengembangan formulasi produk baru agar perusahaan terus mampu bersaing di industri farmasi yang kompetitif.</p>
+                <li>DEPARTEMEN ENGINEERING</li>
+                <p>Departemen Engineering berperan dalam menjaga kinerja, efisiensi, dan keselamatan fasilitas pabrik agar seluruh kegiatan produksi berjalan lancar.</p>
+                <li>DEPARTEMEN HUMAN RESOURCE DEVELOPMENT (HRD)</li>
+                <p>Departemen HRD merupakan pengelola sumber daya manusia (SDM) yang menjadi pilar utama keberhasilan perusahaan.</p>
+                <li>DEPARTEMEN KEUANGAN DAN ADMINISTRASI</li>
+                <p>Departemen ini memiliki fungsi utama dalam mengatur dan mengendalikan aspek keuangan serta administrasi perusahaan.</p>
+                <li>DEPARTEMEN REGULATORY AFFAIRS (RA)</li>
+                <p>Departemen Regulatory Affairs berperan sebagai penghubung antara perusahaan dan otoritas kesehatan nasional seperti BPOM.</p>
+                <li>HUBUNGAN ANTAR DEPARTEMEN</li>
+                <p>Setiap departemen di PT. PIDEKA MEDICA bekerja secara sinergis dan terkoordinasi, di bawah pengawasan langsung Direktur Utama.</p>
+            </ul>
+        </section>
+
+        <section id="produk" class="fade-in">
+            <h2>Produk & Jasa</h2>
+
+            <div class="product-list">
+
+
+                <div class="product-item">
+                    <h3>Nasal Spray</h3>
+                    <img src="img/nasal spray.png" alt="Nasal Spray">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Suplemen</h3>
+                    <img src="img/suplemen.png" alt="Suplemen">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Tetes Mata</h3>
+                    <img src="img/tetes mata.png" alt="Tetes Mata">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Oral Spray</h3>
+                    <img src="img/oral spray.png" alt="Oral Spray">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Imvus</h3>
+                    <img src="img/impus.png" alt="Imvus">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Ampul Steril</h3>
+                    <img src="img/ampul steril.png" alt="Ampul Steril">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Tablet Salut Film</h3>
+                    <img src="img/tablet salut film.jpg" alt="Tablet Salut Film">
+                </div>
+                
+                <div class="product-item">
+                    <h3>Syrup</h3>
+                    <img src="img/syrup.PNG" alt="Syrup">
+                </div>
+
+                <div class="product-item">
+                    <h3>Suspensi</h3>
+                    <img src="img/suspensi.PNG" alt="Suspensi">
+                </div>
+
+                <div class="product-item">
+                    <h3>Vial Steril</h3>
+                    <img src="img/vial steril.PNG" alt="Vial Steril">
+                </div>
+            
+            </div>
+        </section>
+
+        <section id="lokasi" class="fade-in">
+            <h2>Denah Pabrik / lokasi</h2>
+
+            <div class="denah-placeholder">
+                <img src="img/Denah Pabrik.png" alt="Denah Pabrik" class="denah-img">
+                <p class="info-denah">Denah lokasi masih kosong (akan diupdate kemudian).</p>
+            </div>
+
+        </section>
+
+        <section id="kegiatan" class="fade-in">
+            <h2>Kegiatan Kemasyarakatan</h2>
+            <ol>
+                <li><b>Kegiatan Sosial: Donor Darah Massal.</b> PT. PIDEKA MEDICA mengadakan kegiatan donor darah massal secara rutin sebagai bentuk kepedulian terhadap sesama. Kegiatan ini melibatkan karyawan, keluarga karyawan, dan masyarakat sekitar pabrik. Tujuan dari kegiatan ini adalah untuk membantu memenuhi kebutuhan stok darah di bank darah setempat dan menyelamatkan nyawa.</li>
+                <li><b>Kegiatan Lingkungan: Penanaman Pohon Bersama Komunitas Lokal.</b> Sebagai bentuk komitmen terhadap lingkungan, PT. PIDEKA MEDICA mengadakan program penanaman pohon bersama dengan komunitas lokal di sekitar area pabrik. Kegiatan ini bertujuan untuk menghijaukan lingkungan, mengurangi dampak pemanasan global, dan meningkatkan kualitas udara. Karyawan PT. PIDEKA MEDICA bekerja sama dengan warga setempat untuk menanam bibit pohon dan merawatnya.</li>
+                <li><b>Kegiatan Edukasi: Program Pelatihan Keterampilan untuk Pemuda Setempat.</b> PT. PIDEKA MEDICA menyelenggarakan program pelatihan keterampilan bagi pemuda-pemudi di sekitar pabrik. Program ini bertujuan untuk meningkatkan kualitas sumber daya manusia lokal dan membuka peluang kerja. Pelatihan yang diberikan meliputi keterampilan teknis, kewirausahaan, dan pengembangan diri. PT. PIDEKA MEDICA berharap program ini dapat memberikan kontribusi positif bagi peningkatan kesejahteraan masyarakat.</li>
+            </ol>
+
+            <div class="Kegiatan-masyarakat">
+                <img src="img/Kegiatan Masyarakat.jpg" alt="Kegiatan Kemasyarakatan" class="kegiatan-img">
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PT. PIDEKA MEDICA | Semua Hak Dilindungi</p>
+    </footer>
+
+</body>
+</html>
